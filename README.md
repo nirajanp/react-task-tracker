@@ -45,4 +45,8 @@ This will install the `npm serve` package globally.
 ### `serve -s build -p 8000`
 This will serve the build folder in port 8000, to run this app locally.
 
+### `npm install json-serve`
+This installs a json-server to playaround with backend. It creates a database with name db.json. We will have to configure this in our package.json by adding following: 
+### `"server": "json-server --watch db.json --port 5000"` 
+under scripts
 
